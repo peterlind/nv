@@ -10,6 +10,11 @@ bundle install
 bundle exec rerun lib/app.rb
 ```
 
+## Smoke test
+```
+curl localhost:4567
+```
+
 ## Run tests
 ```
 bundle exec rspec spec/
